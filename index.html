@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoEZ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!--header-->
+        <header>
+            <div class="logo">
+                <h1>TecnoEZ</h1>
+            </div>
+
+            <!--menu de arriba-->
+            <nav class="nav-menu">
+                <div id>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#porque">¿Porque Elegirnos?</a></li>
+                        <li><a href="#presupuesto">Presupuestar</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--inicio de la pagina-->
+        <section id="inicio">
+           
+            <h1>Servicio Técnico de Celulares</h1>
+            <h2>Cambio de pantalla, batería, módulos y más.</h2>
+           
+            <!--boton de ver servicio-->
+            <button type="button"><a href="#servicios">Ver servicios</a></button>
+        </section>
+
+        <!--servicios-->
+        <section id="servicios">
+
+            <h2>Nuestros servicios</h2>
+            <h1>Soluciones técnicas para todo tipo de dispositivos móviles</h1>
+            
+            <!--tarjetitas de los servicios-->
+            <div class="servicios-container">
+
+                <div class="servicio">
+                    <h3>Cambio de pantalla</h3>
+                    <p>Remplazamos pantalla rotas o dañadas para todas las marcas</p>
+                </div>
+
+                <div class="servicio">
+                    <h3>Cambio de baterias</h3>
+                    <p>Cambiamos baterias nuevas y de buena calidad</p>
+                </div>
+
+                <div class="servicio">
+                    <h3>Pines de carga</h3>
+                    <p>Arreglamos puertos flojos, dañados o que no cargan</p>
+                </div>
+                
+                <div class="servicio">
+                    <h3>Micrófonos y Parlantes</h3>
+                    <p>Solucionamos problemas de sonido en audios y llamadas</p>
+                </div>
+            </div>
+        
+        <!--seccion de porque elegirnos-->
+        <section id="porque" class="porque-elegirnos">
+            <h2>¿Por qué elegirnos?</h2>
+
+            <!--lista de porque-->
+            <ul class="porque-lista">
+                
+                <li>
+                    <i class="fa-solid fa-user-check"></i>
+                    <p>
+                        Nuestro objetivo es mantener a las personas conectadas,
+                        ofreciendo soluciones confiables mientras
+                        cuidamos el futuro digital de cada cliente.
+                    </p>
+                </li>
+
+                
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <p>
+                        Actuamos con total transparencia y honestidad en cada proceso.
+                        Escuchamos atentamente al cliente para entender sus necesidades
+                        y brindar siempre una respuesta clara y responsable.
+                    </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="presupuesto">
+            <h1>Presupuesta tu dispositivo</h1>
+            <p>Genera un costo estimado para la reparacion de tu dispositivo</p>
+
+            <div class="presupuesto-container">
+
+                <select id="marca">
+                    <option value="">Marca</option>
+                    <option value="samsung">Samsung</option>
+                    <option value="motorola">Motorola</option>
+                </select>
+
+                <select id="modelo">
+                    <option value="">Modelos</option>
+                </select>
+
+                <select id="servicio">
+                    <option value="">Servicio</option>
+                    <option value="Modulo">Cambio de modulo</option>
+                    <option value="Pin">Cambio de pin de carga</option>
+                    <option value="Bateria">Cambio de bateria</option>
+                    <option value="Software">Actualizacion/Reparacion de Soft.</option>
+                </select>
+            </div>
+
+            <button id="agregar" type="button">Agregar al presupuesto</button>
+
+            <h3>Servicios agregados</h3>
+            <ul id="lista-servicios"></ul>
+
+            <p><strong>Total: </strong> $<span id="total">0</span></p>
+        </section>
+
+        <!--contacto-->
+        <section id="contacto" class="contacto-container">
+            <h2>Contacto</h2>
+
+        <!-- tarjetitas con los datos-->
+        <div class="info-contacto">
+
+            <div class="card-info">
+                <h2>Horarios</h2>
+                <p>Lunes a viernes: <b>9:00 - 18:00hs</b></p>
+                <p>Sabado: <b>9:00 - 13:00</b></p>
+                <p>Domingo: Cerrado</p>
+            </div>
+
+            <div class="card-info">
+                <h2>Direccion</h2>
+                <p>Barrio "La Estanzuela", M° 5 C°38</p>
+                <p>Godoy Cruz, Mendoza</p>
+            </div>
+
+            <div class="card-info">
+                <h2>Telefono</h2>
+                <p>+54 2612648790</p>
+                <p>WhatsApp disponible</p>
+            </div>
+        </div>
+
+        <!-- whatsapp--> 
+        <div class="full-width">
+            <section class="whatsapp-section">
+
+                <h2>¿Necesitas ayuda?</h2>
+                <p>Contactanos por WhatsApp y te contestamos lo antes posible</p>
+
+                <!--boton de Wtsp con un mensaje automatico-->
+                <a href="https://wa.me/5492612648790?text=Hola,%20quiero%20hacer%20una%20consulta"
+                    target="_blank"
+                    class="btn-whatsapp">
+                    Escribinos por WhatsApp
+                </a>
+            </section>
+        </div>
+        <!--formulario-->
+        <div class="formulario-contacto">
+
+            <form class="formulario" id="form-contacto">
+
+                <fieldset>
+                    <legend>Datos del cliente</legend>
+
+                    <div class="campo">
+                        <label for="nombre">Nombre</label><!--descripcion del campo-->
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre..." required><!--campo de texto-->
+                    </div>
+
+                    <div class="campo">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido..." required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico..." required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="consulta">Consulta</label>
+                        <textarea id="consulta" name="consulta" rows="5" placeholder="Escriba su consulta aquí..." required></textarea>
+                    </div>
+                </fieldset>
+
+                    <!--botones del formulario-->
+                    <div class="botones">
+                        <button type="submit">Enviar</button>
+                        <button type="button" id="btn-limpiar" class="secundario">Limpiar</button><!--reset limpia los campos-->
+                    </div>
+
+            </form>
+
+            <div class="info-formulario">
+                <h3>¿Tienes alguna pregunta?</h3>
+                <p class="correo-ejemplo">tecnoEZ@gmail.com</p>
+            </div>
+
+        </div>
+
+        <!--mapa-->
+        <div class="mapa-container">
+            <h1>ENCUENTRANOS EN EL MAPA</h1>
+            
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d209.2601079192159!2d-68.87474460704384!3d-32.946739289487354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1763828160247!5m2!1ses-419!2sar"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe><!--iframe se utiliza para meter un elemento html dentro de otro documento html-->
+
+            <p>¡GRACIAS POR VISITARNOS!</p>
+        </div>
+    </section>
+    </main>
+    
+    <footer class="footer">
+        <p>© 2026 TecnoEZ - Servicio Técnico de Celulares</p>
+
+        <hr class="linea">
+
+        <div class="footer-redes">
+                <a href="https://www.tiktok.com/@dorita3303?is_from_webapp=1&sender_device=pc"target="_blank" class="icono circulo tiktok">
+                    <i class="fa-brands fa-tiktok"></i >
+                </a>
+
+                <a href="https://www.instagram.com/eze.c912/" target="_blank" class="icono circulo instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=61571102476264" target="_blank" class="icono circulo facebook">
+                    <i class="fab fa-facebook"></i>  
+                </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
