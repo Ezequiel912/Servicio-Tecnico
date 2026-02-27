@@ -1,53 +1,58 @@
-TecnoEZ – Sitio Web de Servicio Técnico
+# TecnoEZ – Sitio Web de Servicio Técnico
 
-Este proyecto consistio en desarrollar un sitio web para un **servicio técnico de celulares**.
+TecnoEZ es un sitio web desarrollado para un servicio técnico de reparación de celulares.  
+El proyecto está enfocado en brindar información clara sobre los servicios ofrecidos, facilitar el contacto con los clientes y permitir la generación de un presupuesto estimado de forma interactiva.
 
-El objetivo principal de la página es informar sobre los **servicios ofrecidos**, **facilitar el contacto** con los clientes mediante un formulario y un acceso directo a WhatsApp.Y ademas, permitirle a los clientes ver un costo estimado de su reparacion mediante un menu interactivo facil de entender
+## Objetivo del proyecto
 
-El sitio cuenta con una navegación simple, diseño con una estetica moderna y validaciones básicas mediante JavaScript.
+El objetivo principal de la página es:
 
-**Autor**
+- Informar sobre los servicios de reparación disponibles.
+- Permitir al usuario calcular un costo estimado según marca, modelo y tipo de reparación.
+- Facilitar el contacto directo con el negocio mediante WhatsApp.
+- Ofrecer una experiencia simple, clara e intuitiva para el usuario.
 
- **Nombre:** Ezequiel Camino
+## Características principales
 
-**Fecha de creación**
+- Selección dinámica de marca y modelo.
+- Cálculo automático del presupuesto según el servicio elegido.
+- Posibilidad de agregar y eliminar servicios del presupuesto.
+- Total actualizado en tiempo real.
+- Diseño moderno y navegación sencilla.
+- Validaciones básicas implementadas con JavaScript.
 
- **Febrero 2026**
+## Tecnologías utilizadas
 
-**Estructura del proyecto**
+- **HTML5** – Estructura y contenido del sitio.
+- **CSS3** – Estilos, diseño responsive y estética visual.
+- **JavaScript** – Lógica de interactividad, cálculos y validaciones.
 
-Los archivos más importantes del proyecto son:
+## Estructura del proyecto
 
-- **index.html**
-  Estructura principal del sitio web y todas las secciones.
+El proyecto está organizado de la siguiente manera:
 
-- **style.css**
-  Encargado del diseño visual, colores, tipografías, etc.
+- `index.html`  
+  Contiene la estructura principal del sitio y todas las secciones.
 
-- **script.js**  
-  Archivo JavaScript que agrega interactividad al sitio
+- `style.css`  
+  Archivo encargado del diseño visual, colores, tipografías y estilos generales.
 
-- **README.md**  
+- `script.js`  
+  Archivo JavaScript que maneja la lógica del presupuesto, interactividad y validaciones.
+
+- `README.md`  
   Documento descriptivo del proyecto.
 
+## Instrucciones de uso
 
-**Tecnologías utilizadas**
+1. Descargar o clonar el repositorio.
+2. Abrir el archivo `index.html` en cualquier navegador web moderno.
+   
+## Estado del proyecto
 
-- **HTML5**
- 
-- **CSS3** 
+Proyecto finalizado
 
-- **JavaScript**  
+## Autor Ezequiel Camibo
 
-
-**Instrucciones de uso**
-
-1. Descargar o clonar el repositorio
-2. Abrir el archivo **index.html** con cualquier navegador
-
-
-**Estado del proyecto**
-
-Proyecto finalizado y listo para presentar
-
-**Sin colaboraciones**
+**Ezequiel Camino**  
+Febrero 2026
